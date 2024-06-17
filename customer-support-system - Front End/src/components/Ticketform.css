@@ -1,0 +1,29 @@
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.ticket-form label {
+  margin-bottom: 10px;
+}
+
+.ticket-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ticket-form button {
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ticket-form button:hover {
+  background-color: #4CAF50;
+}
